@@ -3,13 +3,14 @@
     <OutputType>Exe</OutputType>
     <Title>SigningServer Client</Title>
     <Description>This is the client for signing files on a signing server.</Description>
-    <PackAsTool>true</PackAsTool>
+    <PackAsTool>false</PackAsTool>
     <ToolCommandName>signingserver-client</ToolCommandName>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <IsPackable>true</IsPackable>
     <IsPublishable>true</IsPublishable>
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
   </PropertyGroup>
   <ItemGroup>
     <None Include="config.json">
